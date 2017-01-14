@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_article_thumbnail">48dp</dimen>
+    <dimen name="list_item_artile_vertical_margin">4dp</dimen>
+    <dimen name="list_item_article_space">8dp</dimen>
+
+    <dimen name="detail_backdrop_height">256dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+
+    <dimen name="regular_offset">16dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+
+    <dimen name="list_item_padding">8dp</dimen>
+
+    <dimen name="list_item_height">48dp</dimen>
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="list_item_left_margin">72dp</dimen>
+
+
+    <dimen name="pad_1dp">1.0dip</dimen>
+    <dimen name="pad_3dp">3.0dip</dimen>
+    <dimen name="pad_5dp">5.0dip</dimen>
+    <dimen name="pad_10dp">10.0dip</dimen>
+    <dimen name="pad_15dp">15.0dip</dimen>
+    <dimen name="pad_20dp">20.0dip</dimen>
+    <dimen name="pad_30dp">30.0dip</dimen>
+    <dimen name="pad_40dp">40.0dip</dimen>
+    <dimen name="pad_125dp">125.0dip</dimen>
+    <dimen name="pad_200dp">200.0dip</dimen>
+    <dimen name="pad_310dp">310.0dip</dimen>
+    <dimen name="pad_350dp">350.0dip</dimen>
+    <dimen name="txt_7sp">7.0sp</dimen>
+    <dimen name="txt_12sp">12.0sp</dimen>
+    <dimen name="txt_13sp">13.0sp</dimen>
+    <dimen name="txt_14sp">14.0sp</dimen>
+    <dimen name="txt_15sp">15.0sp</dimen>
+    <dimen name="txt_16sp">16.0sp</dimen>
+    <dimen name="txt_18sp">18.0sp</dimen>
+    <dimen name="txt_20sp">20.0sp</dimen>
+    <dimen name="txt_25sp">25.0sp</dimen>
+    <dimen name="divider">0.75dip</dimen>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Login progress -->
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBarTipoCambio"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/tipo_cambio_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/regular_offset">
+
+        <TextView
+            android:id="@+id/fecha_actual_titulo"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="19 Dic 2016" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/sample_text_username_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <EditText
+                android:id="@+id/tipo_cambio_compra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tipo_cambio_compra"
+                android:focusable="false"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/tipo_cambio_venta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tipo_cambio_venta"
+                android:focusable="false"
+                 />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/tipo_cambio_caja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tipo_cambio_caja"
+                android:focusable="false"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tipoCambioError" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
